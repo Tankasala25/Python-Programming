@@ -1,0 +1,10 @@
+name='mango'
+print(name[0:])
+print(name[1:])
+print(name[1:4])
+print(name[:5])
+print(name[:-1])
+print(name[-4:-2])
+print(len(name))
+print(name[-4:len(name)-2])
+print(name[-3:-1])
