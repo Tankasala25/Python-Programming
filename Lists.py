@@ -111,6 +111,14 @@ print(fruits)
 print(fruits[0])  # Output: mango
 print(fruits.index("cherry"))  # Output: 1
 
+
+
+# Copy the list
+new_fruits = fruits.copy()
+
+# Print the final list
+print(new_fruits)  # Output: ['mango', 'cherry', 'apple']
+
 '''
 Key Points to Remember
 Lists are ordered and mutable.
@@ -121,9 +129,3 @@ List methods like append, remove, sort, and reverse modify the list in place.
 
 Use slicing or the copy() method to create a copy of a list.
 '''
-
-# Copy the list
-new_fruits = fruits.copy()
-
-# Print the final list
-print(new_fruits)  # Output: ['mango', 'cherry', 'apple']
