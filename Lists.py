@@ -111,6 +111,17 @@ print(fruits)
 print(fruits[0])  # Output: mango
 print(fruits.index("cherry"))  # Output: 1
 
+'''
+Key Points to Remember
+Lists are ordered and mutable.
+
+Lists can contain heterogeneous data types.
+
+List methods like append, remove, sort, and reverse modify the list in place.
+
+Use slicing or the copy() method to create a copy of a list.
+'''
+
 # Copy the list
 new_fruits = fruits.copy()
 
