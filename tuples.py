@@ -71,9 +71,10 @@ print(a, b, c, d)  # Output: 10 20 30 40
 
 # You can also use the * operator to unpack multiple elements into a single variable.
 
-*a, b = my_tuple
+*a, b= my_tuple
 print(a)  # Output: [10,20,30]
 print(b)  # Output: 40
+
 
 # Example: Returning Multiple Values from a Function
 # Tuples are often used to return multiple values from a function.
