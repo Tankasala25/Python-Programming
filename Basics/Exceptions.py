@@ -61,10 +61,10 @@ except ZeroDivisionError:
 # Catching All Exceptions:
 # Use a bare except block to catch all exceptions (not recommended unless necessary).
 
-try:
-    risky_operation()
-except:
-    print("An error occurred!")
+# try:
+#     risky_operation()
+# except:
+#     print("An error occurred!")
 
 # Raising Exceptions:
 # Use the raise keyword to manually raise an exception.
