@@ -1,0 +1,22 @@
+1.Functions
+
+2.Lambdas
+
+3.Functional Programming Basics (map, filter, reduce)
+
+4.Iterators
+
+5.Generators
+
+6.Closures
+
+7.Decorators
+
+8.Regex
+
+9.Threading
+
+10.Magic Methods
+
+11.Advanced Functional Programming
+
