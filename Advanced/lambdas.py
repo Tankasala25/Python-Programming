@@ -49,9 +49,9 @@ print(list(even_numbers))
 # c. With sorted()
 # The sorted() function sorts an iterable. Lambdas can be used to define custom sorting keys.
 
-students = [("Alice", 25), ("Bob", 20), ("Charlie", 30)]
+students = [("Alice", 25), ("Charlie", 30),("Bob", 20) ]
 # Sort by age
-sorted_students = sorted(students,key=lambda x:x[1])
+sorted_students = sorted(students,key=lambda x:x[0])
 print(sorted_students) 
 
 # d. With reduce()
