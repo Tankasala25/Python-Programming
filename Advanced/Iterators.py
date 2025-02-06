@@ -115,7 +115,7 @@ for i in permutations:
 # e) itertools.combinations:
 # Returns an iterator that generates all possible combinations of an iterable.
 
-combinations = itertools.combinations([1, 2, 3], 2)  
+combinations = itertools.combinations([1, 2, 3],2)  
 print(combinations)
 for i in combinations:
     print(i)
