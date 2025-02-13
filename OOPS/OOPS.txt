@@ -1,0 +1,24 @@
+Object-Oriented Programming (OOP) - Theory
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which contain data in the 
+form of attributes (properties) and methods (functions). OOP allows for better organization, modularity, reusability, 
+and scalability of code.
+
+Four Principles of Object-Oriented Programming (OOP)
+
+Encapsulation:Encapsulation is the process of bundling data (attributes) and methods (functions) that operate on the data into a single unit, i.e., a class.
+It restricts direct access to certain components, allowing control over data and reducing complexity.
+Helps in data security by preventing unintended modifications.
+
+
+Inheritance:Inheritance allows a class (child) to acquire the properties and behaviors of another class (parent).
+Promotes code reusability, reduces redundancy, and establishes relationships between classes.
+Supports hierarchical classifications and allows enhancements to existing code.
+
+Polymorphism:Polymorphism allows a single interface (method or function) to be used for different data types or behaviors.
+It enables a method to perform different tasks based on the object that calls it.
+Enhances flexibility and scalability in application development.
+
+
+Abstraction:Abstraction hides complex implementation details and exposes only essential features.
+Helps in simplifying the system by focusing on what an object does rather than how it does it.
+Reduces code complexity and increases maintainability.
