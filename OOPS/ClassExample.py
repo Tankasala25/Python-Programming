@@ -141,13 +141,39 @@ Members declared as private (prefix __ before variable/method) can only be acces
 They cannot be accessed directly outside the class or by subclasses.
 
 '''
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    
+    def display(self):
+        return f"Name :{self.name} , age : {self.age} "
 
-class PublicClass:
+person = Person("John",23)
+print(person.display())
+print(person.name)
+print(person.age)
+
+
+class Parent:
+    def __init__(self):
+        self._protected=10
+
+class Child(Parent):
     def show(self):
-        return "I am a public class"
+        return f"Protected value: {self._protected}"
 
-obj = PublicClass()
-print(obj.show())  # ✅ Accessible anywhere
+child=Child()
+print(child.show())
+print(child._protected)
 
 
+class BankAccount:
+    def __init__(self,balance):
+        self.__balance=balance
 
+    def get_account(self):
+        return self.__balance
+    
+account=BankAccount(1000)
+print(account.get_account())
