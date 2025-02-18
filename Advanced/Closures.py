@@ -62,3 +62,4 @@ def create_callback(message):
 
 my_callback=create_callback("Hello world")
 on_event(my_callback)
+
