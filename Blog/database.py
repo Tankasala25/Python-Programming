@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 
 
-sqlalchemydatabase_url="sqllite:///./blog.db"
+sqlalchemydatabase_url="sqlite:///./fastapi-env/blog.db"
 
 engine=create_engine(sqlalchemydatabase_url,connect_args = {"check_same_thread": False})
 
